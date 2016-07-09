@@ -1,4 +1,8 @@
-﻿.homepageRow div{
+﻿body{
+    background-color:#d2d2d2;
+    /*font-family: 'Catamaran', sans-serif;*/
+}
+.homepageRow div{
     text-align:center;
     letter-spacing:5px;
     background-color:#C8CCC9;
@@ -27,36 +31,44 @@
     background-color: #4fb1a2;
     height: 100%;
 }*/
+.navbar-brand, #logo-img{
+    background-color: #4fb1a2;
+    margin-top : -6px;
+    margin-bottom:0px;
+    padding-left: 8px;
+    padding-top:3px;
+}
 .navbar-default .navbar-brand {
-    background-image: url(Images/logo_header.png);
+    /*background-image: url(Images/logo_header.png);*/
     background-color:#4fb1a2;
-    background-position: center center;
+    /*background-position: center center;
     background-repeat:no-repeat;
-    background-size: 60%;
+    background-size: 60%;*/
+    padding:10px;
+    width:190px;
+    height:100%;
+}
+.navbar-default{
     position:absolute;
-    padding:0px;
-    width:200px;
+    padding-top:5px;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #666666;
 }
 .navbar .nav .test {
-    width: 100px;
+    width: 70px;
     display: inline-block;
     float: none;
-    margin-bottom:0;
+    margin-top:0px;
 }
 .navbar .nav {
     float: none;
     text-align: center;
-    margin-bottom:-10px;
+    margin-bottom:0px;
 }
 .navbar .nav li{
     float:right;
-}
-.row img{
-
 }
 .row1-col1 {
     height:450px;
@@ -70,24 +82,66 @@
     background-position:center center;
     margin-top:-20px;
 }
+.row2-col1 {
+    height:340px;
+    text-align:left;
+    background-color:white;
+    padding:60px;
+}
+h3{
+    line-height:10px;
+    font-weight:500;
+    font-size:21px;
+    letter-spacing:2px;
+}
+h5{
+    font-weight:bold;
+    margin-top:30px;
+}
 .row2-col2 {
-    height:300px;
+    height:340px;
     background-image: url(Images/Beach-Front.jpg);
     background-position:center center;
     margin-top:0px;
 }
 .row2-col3 {
-    height:300px;
+    height:340px;
     background-image: url(Images/santambrogio_tuscany_pool_sunset.jpg);
     background-position:center center;
     margin-top:0px;
 }
 .row2-col4 {
-    height:300px;
+    height:340px;
     background-image: url(Images/Villa_Antonella-sunset.jpg);
     background-position:center center;
     margin-top:0px;
 }
+.row3-col1 {
+    height:340px;
+    background-image: url(Images/Villa-Carla-Tuscany.jpg);
+    background-position:center center;
+    margin-top:0px;
+}
+.row3-col2 {
+    height:340px;
+    text-align:left;
+    background-color:white;
+    padding:60px;
+}
+.row3-col3 {
+    height:340px;
+    background-image: url(Images/villa-del-prelato-tuscany.jpg);
+    background-position:center center;
+    margin-top:0px;
+}
+.row3-col4 {
+    height:340px;
+    text-align:left;
+    background-color:white;
+    padding:60px;
+}
+
+
 
 
 
