@@ -176,10 +176,13 @@ p{
     height:340px;
     text-align:center;
     background-color:white;
-    padding-top:60px;
+    padding-top:40px;
     padding-bottom:30px;
     padding-left:30px;
     padding-right:30px;
+}
+.row3-col2 p{
+    margin-bottom:-14px;
 }
 .row3-col3 {
     border:1px solid;
@@ -202,7 +205,7 @@ p{
     height:340px;
     text-align:center;
     background-color:white;
-    padding-top:60px;
+    padding-top:40px;
     padding-bottom:30px;
     padding-left:30px;
     padding-right:30px;
@@ -210,6 +213,93 @@ p{
 .row3-col4 p{
     margin-top:10px;
 }
+.row4-col1 {
+    border:1px solid;
+    border-color:#d2d2d2;    
+    height:340px;
+    text-align:center;
+    background-color:white;
+    padding-top:40px;
+    padding-bottom:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.row4-col2 {
+    border:1px solid;
+    border-color:#d2d2d2;    
+    position:relative;
+    overflow:hidden;
+    height:340px;
+    background-image: url(Images/esterni_villa.jpg);
+    background-position:center bottom;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+.row4-col2:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.row4-col3 {
+    border:1px solid;
+    border-color:#d2d2d2;    
+    height:340px;
+    text-align:center;
+    background-color:#69CFBF;
+    padding-top:40px;
+    padding-bottom:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.row4-col3 .read-reviews{
+    margin-top:-22px;
+    margin-left:-11px;
+    margin-right:-11px;
+    border:2px solid;
+    border-color:#4fb1a2;
+    color:white;
+}
+.row4-col3 h1{
+    font-style:italic;
+    font-size:65px;
+    margin:-5px;
+}
+.row4-col3 .btn-default{
+    background-color: #69CFBF !important;
+    border-color: #2B7E71 !important;
+    margin-top:-20px;
+    color: #2b7e71;
+}
+.row4-col3 .btn-default:hover{
+    background-color: #2B7E71 !important;
+    border-color: #2B7E71 !important;
+    color:white;
+}
+.btn-default{
+    border-color: #82bfd8 !important;
+    color: #82bfd8;
+}
+.btn-default:hover{
+    background-color: #82bfd8 !important;
+    color:white !important;
+}
+.row4-col4 {
+    border:1px solid;
+    border-color:#d2d2d2;    
+    height:340px;
+    text-align:center;
+    background-color:white;
+    padding-top:60px;
+    padding-bottom:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.row4-col4 img{
+    padding-top:20px;
+}
+
+
+
+
 
 
 
